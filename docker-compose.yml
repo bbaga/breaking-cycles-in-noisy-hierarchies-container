@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  run-env:
+    build:
+      context: ./
+      dockerfile: ./docker/Dockerfile
+    image: "run-env"
