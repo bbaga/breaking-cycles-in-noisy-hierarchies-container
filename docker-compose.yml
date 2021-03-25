@@ -5,3 +5,5 @@ services:
       context: ./
       dockerfile: ./docker/Dockerfile
     image: "run-env"
+    volumes:
+      - ./mount:/tmp/mount
